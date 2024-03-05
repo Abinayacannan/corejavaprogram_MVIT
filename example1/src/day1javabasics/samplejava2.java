@@ -7,9 +7,10 @@ public class samplejava2 {
 		int a,b,c;
 		System.out.println("enter the a and b values:");
 		a=500;
-		b=300;
+		b=60;
 		c=a+b;
 		System.out.println("addition of a+b ="+c);
+		
 		
 	}
 }
