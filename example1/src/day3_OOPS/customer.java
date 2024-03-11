@@ -1,9 +1,23 @@
 package day3_OOPS;
-
-public class customer {
+ public class customer {
 private int cid;
 private String caddress;
 private String cname;
+// explicit default constructor
+public customer()
+{
+	this.cid=144;
+	this.cname="unknown";
+	this.caddress="Chennai";
+}
+// parmeterized constructoe
+public customer(int cid,String cname,String caddress)
+{
+	this.cid=cid;
+	this.cname=cname;
+	this.caddress=caddress;
+}
+//getters and setters to access private variable
 public int getCid() {
 	return cid;
 }
