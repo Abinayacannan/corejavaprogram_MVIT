@@ -1,5 +1,5 @@
 package day3_OOPS;
-public class Executor {
+ public class Executor {
 public static void main(String [] args)
 {
 	customer c1=new customer();
@@ -15,5 +15,10 @@ public static void main(String [] args)
     System.out.println(c3);
     customer c4=new customer(102,"Sabari","TN");//invoke parameterized constructor
     System.out.println(c4);
+    customer c5=new customer();
+    c5.setCid(113);
+    c5.setCname("Abinaya");
+    c5.setCaddress("Chennai");
+    System.out.println(c5);
     }
 }

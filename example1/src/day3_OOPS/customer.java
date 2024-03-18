@@ -1,5 +1,5 @@
 package day3_OOPS;
- public class customer {
+public class customer {
 private int cid;
 private String caddress;
 private String cname;
@@ -10,7 +10,7 @@ public customer()
 	this.cname="unknown";
 	this.caddress="Chennai";
 }
-// parmeterized constructoe
+// parmeterized constructor 
 public customer(int cid,String cname,String caddress)
 {
 	this.cid=cid;
@@ -36,7 +36,7 @@ public String getCname() {
 public void setCname(String cname) {
 	this.cname = cname;
 }
-@Override
+@Override //it is used to indicate the function is overloaded the compiler checks the variable inside it
 public String toString() {
 	return "customer [cid=" + cid + ", caddress=" + caddress + ", cname=" + cname + "]";
 }
