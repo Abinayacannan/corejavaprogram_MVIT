@@ -56,9 +56,8 @@ package day6_Interface2;;
 
 	@Override
 	 public String toString() {
-	     return "Account [accNo=" + accNo + ", name=" + name + ", balance=" + balance + "]";
+		
+		 return ("Account [accNo=" + accNo + ", name=" + name + ", balance=" + balance + "]");
 	 }
-
-
 	}
 
